@@ -22,7 +22,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock TextWrapping="Wrap" Text="TextBlock" Grid.ColumnSpan="6" Background="#FFE6FFE4"/>
+        <TextBlock TextWrapping="WrapWithOverflow" Text="123456.78" Grid.ColumnSpan="6" Background="#FFE6FFE4" TextAlignment="Right" LineHeight="36" FontSize="36" TextTrimming="WordEllipsis"/>
         <Button Content="%" Grid.Column="0" Grid.Row="1" Background="#FFB3B2B2" BorderBrush="#FF121111"/>
         <Button Content="CE" Grid.Column="1" Grid.Row="1" Background="#FFB3B2B2" BorderBrush="#FF121111"/>
         <Button Content="C" Grid.Column="2" Grid.Row="1" Background="#FFB3B2B2" BorderBrush="#FF121111"/>
